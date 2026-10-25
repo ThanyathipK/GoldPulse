@@ -1,0 +1,12 @@
+[theme]
+base = "light"
+# Dark enough to meet WCAG AA contrast when Streamlit uses the accent for text.
+primaryColor = "#806000"
+backgroundColor = "#F7F7F4"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#171714"
+font = "sans serif"
+
+[server]
+headless = true
+
