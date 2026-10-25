@@ -1,0 +1,18 @@
+{
+  "dataset": "Thai gold official monthly averages",
+  "resolution": "monthly_average",
+  "source_url": "https://gtadmin.goldtraders.or.th/updatepricelist/",
+  "accessed_at": "2026-10-25T15:00:00Z",
+  "raw_snapshot": "data/raw/gta_monthly_averages_2026.csv",
+  "raw_snapshot_sha256": "a9db50b15a6c10da8f16e08096a19a3df083920b17f08cafce14474de7694d51",
+  "output": "data/official_2026_monthly.csv",
+  "input_row_count": 9,
+  "output_row_count": 9,
+  "first_month": "2026-01",
+  "last_month": "2026-09",
+  "transformations": [
+    "normalized month labels to first-of-month ISO dates",
+    "preserved published monthly-average values without interpolation",
+    "assigned official_monthly_average data status"
+  ]
+}
